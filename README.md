@@ -22,3 +22,5 @@ YOUTUBE 8M - EJECUCIÓN DE CÓDIGO
 3. Una vez que termine la evaluación, procederemos a ejecutar el script empezarInferencia.sh, asi mismo debemos pasarle como parémtro el modelo que vamos a usar para hacer las predicciones. Ejm:
 
       . empezarInferencia.sh DbofModel
+      
+   La ejecución de este código provocará que se cree un archivo llamado resultado.csv en el directorio /mnt/md1/datasets/youtube-8M/result/tested-model/xxxx, donde xxxx es una carpeta con el nombre del modelo que se utilizó para la inferencia.
